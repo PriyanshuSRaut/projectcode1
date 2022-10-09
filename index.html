@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> function </title>
+        <script language="javascript" type="text/javascript ">
+            document.frm1.login1.bgcolor="orange";
+            function display()
+            {
+                if (document.frm1.n1.value=="username :")
+                {
+                    document.frm1.n1.value="";
+                }
+            }
+
+            function out()
+            {
+                 if (document.frm1.n1.value=="")
+                {
+                    document.frm1.n1.value="username :";
+                }
+            }
+            function display2()
+            {
+                if (document.frm1.n2.value=="password :")
+                {
+                    document.frm1.n2.value="";
+                }
+            }
+
+            function out2()
+            {
+                 if (document.frm1.n2.value=="")
+                {
+                    document.frm1.n2.value="password :";
+                }
+            }
+            
+            function login()
+            {
+                
+            }
+
+        </script>
+    </head>
+    <body >
+        <from >
+            <br><br>
+            <h1 > Welcome to Priyanshu  Site </h1>
+        <h2>Computer Engginering</h3>
+        </from>
+    </body>
+    <body bgcolor=white >
+        <form name="frm1" >
+        
+        <br><br><hr>
+           <h3> ------------ LOGIN -------------</h3>   <br>
+            Username :   <input type="text" value="username :" name="n1" size="15" onmouseover="display()"   onmouseout="out()"><br><br><br>
+            Password :   <input type="text" value="password :" name="n2" size="15" onmouseover="display2()"   onmouseout="out2()"><br><br><br>
+
+            --------<input type="button" value="              LOGIN               " name="login1" onmouseenter="login()" >--------
+
+            <br><br><hr>
+
+            
+
+            
+        </form>
+    </body>
+</html>
